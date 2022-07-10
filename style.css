@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(26, 26, 26);
+}
+
+nav{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background: linear-gradient(to bottom, rgba(0,0,0) -10%, rgba(0,0,0,0) 100%);
+}
+
+.netcine_logo{
+    position: relative;
+    left: 25px;
+    width: 120px;
+}
+
+ul{
+    margin-right: 30px;
+}
+
+a{
+    margin: 0px 12px;
+    display: inline-block;
+    color: white;
+}
+
+li{
+    display: inline-block;
+}
+
+a:hover{
+    font-weight: 900;
+}
+
+
+.minions_banner{
+    background-size: auto;
+    background-position: center;
+    background-image: linear-gradient(to bottom, rgba(26,26,26,0) 85%, rgba(26, 26, 26, 0.8) 95%, rgba(26, 26, 26) 100%),  url(https://www.themoviedb.org/t/p/original/ggEKIzP5An3vnSfj271ApaJYtQw.jpg);
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    justify-content: flex-start;
+    align-content: flex-end;
+}
+
+#minions_logo{
+    width: 500px;
+}
+
+.minions_info{
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    margin-left: 50px;
+    gap: 15px;
+    margin-bottom: 200px;
+}
+
+#sinopse{
+    color: black;
+    font-weight: 600;
+}
+
+.btns{
+    width: 460px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    background-color: rgb(202, 194, 194);
+}
+
+.btn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(44, 44, 44, 0.318);
+    width: 250px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    cursor: pointer;
+    color: white
+}
+
+.btn2:hover{
+    background-color: rgba(0, 0, 0, 0.318);
+}
+
+.text_btn{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+.minions_info{
+    position: relative;
+    top: 10px;
+}
+
+#botao_play{
+    column-rule: black;
+    font-size: 27px;
+    margin-right: 20px;
+}
+
+#botao_info{
+    color: white;
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.movie_title{
+    font-size: 16px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+}
+
+.categorias{
+    overflow: hidden;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    margin: 15px 50px;
+}
+
+.catalogo{
+    margin-top: -100px;
+}
+
+footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.container2{
+    width: auto;
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+    margin: 50px auto;
+}
+
+.social_midia{
+    font-size: 30px;
+    display: flex;
+    gap: 0px 20px;
+}
+
+.links{
+    display: grid; 
+    grid-template-columns: 200px 200px 200px 200px; 
+    grid-template-rows: 30px 30px 30px 30px; 
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    font-weight: 400;
+    font-size: 13px;
+    color: rgb(144, 142, 142);
+}
+
+.links_info{
+    cursor: pointer;
+}
+
+.links_info:hover{
+    text-decoration: underline;
+}
+
+.btn_link{
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 8px;
+    width: 130px;
+    border: 1px solid rgb(144, 142, 142);
+    color: rgb(144, 142, 142);
+    cursor: pointer;
+}
+
+.btn_link:hover{
+    color: white;
+}
+
+.fa-brands{
+    margin: 3px 2px;
+    cursor: pointer;
+}

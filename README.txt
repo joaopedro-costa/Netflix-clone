@@ -1,0 +1,1 @@
+Segundo projeto para o o desenvolvimento do curso de web developer da DIO, no qual se trata de fazer um clone da netflix.
